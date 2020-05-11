@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GambitCalculatorApp", "GambitCalculatorApp.csproj", "{61BB120E-0522-4B02-A387-CAE2537AF052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61BB120E-0522-4B02-A387-CAE2537AF052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BB120E-0522-4B02-A387-CAE2537AF052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BB120E-0522-4B02-A387-CAE2537AF052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BB120E-0522-4B02-A387-CAE2537AF052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A36C725-C534-4948-9C53-CA9686732E63}
+	EndGlobalSection
+EndGlobal
