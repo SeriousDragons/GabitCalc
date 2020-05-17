@@ -13,6 +13,7 @@ namespace GambitCalculatorApp
 {
     public partial class Form1 : Form
     {
+        public string textboi6;
         public int wins;
         public int losses;
         public string A;
@@ -29,6 +30,8 @@ namespace GambitCalculatorApp
         public bool C;
         public bool D;
         public string L;
+        public int GainedPoints;
+        public int intboi6;
 
 
         public Form1()
@@ -58,7 +61,7 @@ namespace GambitCalculatorApp
 
         private void Label1_Click(object sender, EventArgs e)
         {
-
+       
         }
 
         static bool StringChecker(string String1,string String2)
@@ -79,6 +82,7 @@ namespace GambitCalculatorApp
         }
         private void Button1_Click(object sender, EventArgs e)
         {
+            GainedPoints = 0;
             progressBar1.Visible = true;
             Thread.Sleep(100);
             wins = 0; losses = 0;
@@ -91,145 +95,156 @@ namespace GambitCalculatorApp
             points = 0; wantedpoints = 0;
             progressBar1.Value = 10;
             Thread.Sleep(100);
-            if(StringChecker(A,"Guardian 1"))
+            if (checkBox2.Checked)
             {
-                points = Guardian;
+                textboi6 = textBox6.Text;
+                intboi6 = Convert.ToInt32(textboi6);
+                points = intboi6;
             }
-            if (StringChecker(A, "Guardian 2"))
+            else
             {
-                points = Guardian2;
+                if (StringChecker(A, "Guardian 1"))
+                {
+                    points = Guardian;
+                }
+                if (StringChecker(A, "Guardian 2"))
+                {
+                    points = Guardian2;
+                }
+                if (StringChecker(A, "Guardian 3"))
+                {
+                    points = Guardian3;
+                }
+                if (StringChecker(A, "Brave 1"))
+                {
+                    points = Brave;
+                }
+                if (StringChecker(A, "Brave 2"))
+                {
+                    points = Brave2;
+                }
+                if (StringChecker(A, "Brave 3"))
+                {
+                    points = Brave3;
+                }
+                if (StringChecker(A, "Heroic 1"))
+                {
+                    points = Heroic;
+                }
+                if (StringChecker(A, "Heroic 2"))
+                {
+                    points = Heroic2;
+                }
+                if (StringChecker(A, "Heroic 3"))
+                {
+                    points = Heroic3;
+                }
+                if (StringChecker(A, "Fabled 1"))
+                {
+                    points = Fabled;
+                }
+                if (StringChecker(A, "Fabled 2"))
+                {
+                    points = Fabled2;
+                }
+                if (StringChecker(A, "Fabled 3"))
+                {
+                    points = Fabled3;
+                }
+                if (StringChecker(A, "Mythic 1"))
+                {
+                    points = Mythic;
+                }
+                if (StringChecker(A, "Mythic 2"))
+                {
+                    points = Mythic2;
+                }
+                if (StringChecker(A, "Mythic 3"))
+                {
+                    points = Mythic3;
+                }
+                if (StringChecker(A, "Legend"))
+                {
+                    points = Legend;
+                }
             }
-            if (StringChecker(A, "Guardian 3"))
-            {
-                points = Guardian3;
-            }
-            if (StringChecker(A, "Brave 1"))
-            {
-                points = Brave;
-            }
-            if (StringChecker(A, "Brave 2"))
-            {
-                points = Brave2;
-            }
-            if (StringChecker(A, "Brave 3"))
-            {
-                points = Brave3;
-            }
-            if (StringChecker(A, "Heroic 1"))
-            {
-                points = Heroic;
-            }
-            if (StringChecker(A, "Heroic 2"))
-            {
-                points = Heroic2;
-            }
-            if (StringChecker(A, "Heroic 3"))
-            {
-                points = Heroic3;
-            }
-            if (StringChecker(A, "Fabled 1"))
-            {
-                points = Fabled;
-            }
-            if (StringChecker(A, "Fabled 2"))
-            {
-                points = Fabled2;
-            }
-            if (StringChecker(A, "Fabled 3"))
-            {
-                points = Fabled3;
-            }
-            if (StringChecker(A, "Mythic 1"))
-            {
-                points = Mythic;
-            }
-            if (StringChecker(A, "Mythic 2"))
-            {
-                points = Mythic2;
-            }
-            if (StringChecker(A, "Mythic 3"))
-            {
-                points = Mythic3;
-            }
-            if (StringChecker(A, "Legend"))
-            {
-                points = Legend;
-            }
-            progressBar1.Value = 40;
-            Thread.Sleep(100);
-            if (StringChecker(B, "Guardian 1"))
-            {
-               wantedpoints = Guardian;
-            }
-            if (StringChecker(B, "Guardian 2"))
-            {
-               wantedpoints = Guardian2;
-            }
-            if (StringChecker(B, "Guardian 3"))
-            {
-               wantedpoints = Guardian3;
-            }
-            if (StringChecker(B, "Brave 1"))
-            {
-               wantedpoints = Brave;
-            }
-            if (StringChecker(B, "Brave 2"))
-            {
-               wantedpoints = Brave2;
-            }
-            if (StringChecker(B, "Brave 3"))
-            {
-               wantedpoints = Brave3;
-            }
-            if (StringChecker(B, "Heroic 1"))
-            {
-               wantedpoints = Heroic;
-            }
-            if (StringChecker(B, "Heroic 2"))
-            {
-               wantedpoints = Heroic2;
-            }
-            if (StringChecker(B, "Heroic 3"))
-            {
-               wantedpoints = Heroic3;
-            }
-            if (StringChecker(B, "Fabled 1"))
-            {
-               wantedpoints = Fabled;
-            }
-            if (StringChecker(B, "Fabled 2"))
-            {
-               wantedpoints = Fabled2;
-            }
-            if (StringChecker(B, "Fabled 3"))
-            {
-               wantedpoints = Fabled3;
-            }
-            if (StringChecker(B, "Mythic 1"))
-            {
-               wantedpoints = Mythic;
-            }
-            if (StringChecker(B, "Mythic 2"))
-            {
-               wantedpoints = Mythic2;
-            }
-            if (StringChecker(B, "Mythic 3"))
-            {
-               wantedpoints = Mythic3;
-            }
-            if (StringChecker(B, "Legend"))
-            {
-               wantedpoints = Legend;
-            }
-            if (StringChecker(B, "Max"))
-            {
-               wantedpoints = Max;
-            }
+                progressBar1.Value = 40;
+                Thread.Sleep(100);
+                if (StringChecker(B, "Guardian 1"))
+                {
+                    wantedpoints = Guardian;
+                }
+                if (StringChecker(B, "Guardian 2"))
+                {
+                    wantedpoints = Guardian2;
+                }
+                if (StringChecker(B, "Guardian 3"))
+                {
+                    wantedpoints = Guardian3;
+                }
+                if (StringChecker(B, "Brave 1"))
+                {
+                    wantedpoints = Brave;
+                }
+                if (StringChecker(B, "Brave 2"))
+                {
+                    wantedpoints = Brave2;
+                }
+                if (StringChecker(B, "Brave 3"))
+                {
+                    wantedpoints = Brave3;
+                }
+                if (StringChecker(B, "Heroic 1"))
+                {
+                    wantedpoints = Heroic;
+                }
+                if (StringChecker(B, "Heroic 2"))
+                {
+                    wantedpoints = Heroic2;
+                }
+                if (StringChecker(B, "Heroic 3"))
+                {
+                    wantedpoints = Heroic3;
+                }
+                if (StringChecker(B, "Fabled 1"))
+                {
+                    wantedpoints = Fabled;
+                }
+                if (StringChecker(B, "Fabled 2"))
+                {
+                    wantedpoints = Fabled2;
+                }
+                if (StringChecker(B, "Fabled 3"))
+                {
+                    wantedpoints = Fabled3;
+                }
+                if (StringChecker(B, "Mythic 1"))
+                {
+                    wantedpoints = Mythic;
+                }
+                if (StringChecker(B, "Mythic 2"))
+                {
+                    wantedpoints = Mythic2;
+                }
+                if (StringChecker(B, "Mythic 3"))
+                {
+                    wantedpoints = Mythic3;
+                }
+                if (StringChecker(B, "Legend"))
+                {
+                    wantedpoints = Legend;
+                }
+                if (StringChecker(B, "Max"))
+                {
+                    wantedpoints = Max;
+                }
+            
             textBox4.Text = "" + wantedpoints;
             progressBar1.Value = 75;
             Thread.Sleep(100);
             for ( ; IntChecker(points, wantedpoints);)
             {
+                GainedPoints = GainedPoints + 100;
                 points = points + 100;
                 if (points < 7500)
                 {
@@ -249,7 +264,7 @@ namespace GambitCalculatorApp
             if (checkBox1.Checked)
             {
                 textBox5.Visible = true;
-                textBox5.Text = "Points: " + points;
+                textBox5.Text = "Points: " + GainedPoints;
             }
             else
             {

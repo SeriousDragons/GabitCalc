@@ -1,0 +1,14 @@
+C:\Users\adrie\source\repos\GambitCalculatorApp\bin\Release\GambitCalculatorApp.exe.config
+C:\Users\adrie\source\repos\GambitCalculatorApp\bin\Release\GambitCalculatorApp.exe.manifest
+C:\Users\adrie\source\repos\GambitCalculatorApp\bin\Release\GambitCalculatorApp.application
+C:\Users\adrie\source\repos\GambitCalculatorApp\bin\Release\GambitCalculatorApp.exe
+C:\Users\adrie\source\repos\GambitCalculatorApp\bin\Release\GambitCalculatorApp.pdb
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.csprojAssemblyReference.cache
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.Form1.resources
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.Properties.Resources.resources
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.csproj.GenerateResource.cache
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.exe.manifest
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.application
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.exe
+C:\Users\adrie\source\repos\GambitCalculatorApp\obj\Release\GambitCalculatorApp.pdb
